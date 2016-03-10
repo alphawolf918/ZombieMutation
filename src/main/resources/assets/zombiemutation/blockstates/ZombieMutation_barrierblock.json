@@ -1,0 +1,5 @@
+{
+    "variants": {
+        "normal": { "model": "zombiemutation:ZombieMutation_barrierblock" }
+    }
+}

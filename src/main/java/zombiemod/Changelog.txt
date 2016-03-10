@@ -1,0 +1,79 @@
+== Changelog ==
+
+-v0.3-
+* Added Nails.
+    * Can be obtained by crafting 2 Iron Ingots.
+* Added in Nail Groups.
+    * Crafted using 4 Nails.
+* Added Woodboxes.
+    * Crafted using three Wooden Planks.
+* Added in Metal Parts.
+    * Crafted using Woodbox and Nail Group.
+    * Currently unused.
+* Added the Seeker mutation.
+    * Baby Zombies can mutate into blue, tiny, grotesque versions of their previous selves, with a giant,
+      bloody hole through their chests. They also develop a second head.
+    * Seekers move extra fast, have a much higher chance to multiply, and follow the Player for a
+      wider range. However, they do not hit very hard and have little health, making them much
+      easier to kill. The trick is to kill them before they multiply into too many of themselves.
+        * Seekers are the only Mutant to spawn copies of themselves instead of regular Zombies.
+    * Seekers can also survive during the day and are immune to fire (and, by association, lava).
+* Added in Barrier Blocks.
+    * Completely invisible blocks that are unbreakable, similar to Bedrock, to be used in Adventure and RPG maps.
+    * Prevents Players from leaving bounds, while still retaining the original look.
+    * Only obtainable in Creative Mode (for very obvious reasons).
+
+
+== KNOWN BUGS ==
+* A mutation sound is supposed to play when a Zombie mutates, however for some reason it doesn't.
+    * "Unable to play sound minecraft:none" (Related?)
+    * Upon using the /playsound command, the sound plays despite it not working when called in the code (?)
+    
+--------
+
+-v0.2-
+* Added coins.
+    * Currently completely useless by themselves.
+* Added Medkits.
+    * Crafted using alcohol and gauze.
+        * Gauze can be obtained by crafting String and Paper.
+        * Alcohol can be obtained by crafting a Glass Bottle, a Bucket of Water, Wheat Seeds, 
+          and a Clay Ball.
+    * Heals the Player for five hearts, which uses the Medkit.
+
+== FIXES ==
+* Mutants originally made copies of themselves when attacked. This was an accidental feature. 
+  It should be fine now, but they do multiply sometimes. This can also be reduced if needed. They 
+  now only spawn Zombies, which are then permitted to mutate freely.
+* Mutants are not as strong and Zombies do not mutate as often.
+
+== KNOWN BUGS ==
+* A mutation sound is supposed to play when a Zombie mutates, however for some reason it doesn't.
+    * "Unable to play sound minecraft:none" (Related?)
+
+--------
+
+-v0.1-
+* Zombies have a chance to mutate into different types of stronger zombies.
+    * A Zombie must mutate into one, or a Villager must be killed by a Mutant to become one.
+    * Mutants do not spawn on their own, however, a mutant may call in other Mutants as an aide.
+    * Volatiles
+        * Volatiles move faster, have more health, hit much harder and follow the player a longer range, 
+      making for a smarter path-finding A.I.
+            * They are slightly bigger than regular Zombies and have a different skin.
+    * Overlords
+        * Overlords move way faster, have a lot more health, hit the player incredibly hard, and follow the player for 
+          much longer.
+            * Much bigger than the Player (twice as big if not more).
+            * Spider-like zombies that kill on-sight.
+            * Much more likely for a Volatile to mutate into an Overlord than a Zombie to mutate into one.
+* If a Player is killed by any form of Zombie (Mutant or otherwise), a Zombie version of that Player will spawn in their 
+  place where they died.
+    * This new Zombie will have a custom name tag that reads: "Zombie PlayerName"
+    * Zombie Players can also morph into Mutants, and will retain their name-tags. The only difference is that
+      the word "Zombie" will be replaced by the name of the Mutant in the name.
+
+== KNOWN BUGS ==
+* A mutation sound is supposed to play when a Zombie mutates, however for some reason it doesn't.
+    * "Unable to play sound minecraft:none" (Related?)
+* Mutants might be a little too strong at first and might mutate too quickly or move too fast, this can be nerfed if needed.

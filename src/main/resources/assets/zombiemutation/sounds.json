@@ -1,0 +1,27 @@
+{
+  "mob.volatile.say": {
+    "category": "master",
+    "sounds": [
+      "mob/volatile/say1",
+	  "mob/volatile/say2"
+    ]
+  },
+  "mob.volatile.hurt": {
+    "category": "master",
+    "sounds": [
+      "mob/volatile/hurt"
+    ]
+  },
+  "mob.volatile.die": {
+    "category": "master",
+    "sounds": [
+      "mob/volatile/die"
+    ]
+  },
+  "mob.volatile.mutate": {
+    "category": "master",
+    "sounds": [
+      "mob/volatile/mutate"
+    ]
+  }
+}

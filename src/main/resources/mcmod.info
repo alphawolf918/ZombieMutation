@@ -1,0 +1,16 @@
+[
+{
+  "modid": "ZombieMutation",
+  "name": "Zombie Mutation",
+  "description": "Bored of regular Zombies? Need something to spice up your Adventure map? Look no further! This is the mod you want!",
+  "version": "0.4",
+  "mcversion": "1.8.9",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["ZollernWolf"],
+  "credits": "Just myself, lazy_logic and the Forge guys of course.",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

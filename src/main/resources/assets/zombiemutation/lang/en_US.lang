@@ -1,0 +1,16 @@
+tile.ZombieMutation_barrierblock.name=Barrier Block
+
+item.ZombieMutation_coin.name=Coin
+item.ZombieMutation_medkit.name=Medkit
+item.ZombieMutation_alcohol.name=Medical Alcohol
+item.ZombieMutation_gauze.name=Gauze
+item.ZombieMutation_nail.name=Nail
+item.ZombieMutation_metalparts.name=Metal Parts
+item.ZombieMutation_woodbox.name=Woodbox
+item.ZombieMutation_nailgroup.name=Nail Group
+
+entity.ZombieMutation.overlord.name=Overlord
+entity.ZombieMutation.volatile.name=Volatile
+entity.ZombieMutation.seeker.name=Seeker
+
+itemGroup.ZombieMutationTab=Zombie Mutation
